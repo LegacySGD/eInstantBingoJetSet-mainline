@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation language="pt_BR">
+<phrase key="softwareId" value="ID do Software"/>
+<phrase key="transactionId" value="ID da Transação"/>
+<phrase key="totalWins" value="Total de Prêmios"/>
+<phrase key="totalWager" value="Aposta Total"/>
+<phrase key="bingoCardNumbers" value="Números da Cartela de Bingo"/>
+<phrase key="drawnNumbers" value="Números Sorteados"/>
+<phrase key="prizePatterns" value="Padrões Premiados"/>
+<phrase key="matched" value="Combinação"/>
+<phrase key="freeSpace" value="GRÁTIS"/>
+<phrase key="Blackout" value="Cartela Completa"/>
+<phrase key="Dollar" value="Dólar"/>
+<phrase key="Sterling" value="Libra Esterlina"/>
+<phrase key="Euro" value="Euro"/>
+<phrase key="Yuan" value="Yuan"/>
+<phrase key="Diamond" value="Diamante"/>
+<phrase key="Four Corners" value="Quatro Cantos"/>
+<phrase key="winningPattern" value="Padrão Ganhador"/>
+</translation>

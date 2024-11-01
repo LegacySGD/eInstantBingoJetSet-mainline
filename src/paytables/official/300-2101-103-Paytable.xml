@@ -1,0 +1,640 @@
+<SignedPaytable>
+	<Key>wwpublic1</Key>
+	<Signature>O10NIYimEqXyjqE5/Kc9jG+fUH20SHXi0J/Un52c3qdFMVbNnILvn3n5hhmnx37/p8lOOev3Rb62XMFS0N3dgkW1+QxzVKypzUmevIsSY/fuZM4jbNahf1kywxFD5oDHz4m3KhyX1VC8AkA+8/sxWDUhGtMStyNhmaKy4XPFGYg=</Signature>
+	<Digest>l1BguwywQV0HMHhGORySjtLxL00=</Digest>
+	<DigestedData>
+		<Paytable>
+			<PaytableData crc="">
+				<PaytableVariation name="Variation" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Variation>
+						<SoftwareId>300-2101-103</SoftwareId>
+						<PaytableStatistics description="Bingo Jet Set" maxRTP="93.00" minRTP="85.00" name="Bingo Jet Set" type="Lottery"/>
+						<BetConfiguration name="ODEWager">
+							<PlayedCreditsPerSelection>1</PlayedCreditsPerSelection>
+							<PaidCreditsPerSelection>1</PaidCreditsPerSelection>
+						</BetConfiguration>
+						<ExecutionModelMapping>
+							<ExecutionModel name="Wager_Buy">
+								<Data name="Wager_Buy.ActionVerifier" type="Wager_Buy.ActionVerifier"/>
+								<Data name="Wager_Buy.ODEInputVerifier.Wager" type="Wager_Buy.ODEInputVerifier.Wager"/>
+								<Data name="Wager_Buy.ODEInputVerifier.JSON" type="Wager_Buy.ODEInputVerifier.JSON"/>
+								<Data name="Wager_Buy.StaticTriggerProcessor" type="Wager_Buy.StaticTriggerProcessor"/>
+								<Data name="Wager_Buy.LoopProcessor" type="Wager_Buy.LoopProcessor"/>
+								<Data name="Wager_Buy.StageProcessor" type="Wager_Buy.StageProcessor"/>
+								<Data name="Wager_Buy.AdvancedTransactionProcessor" type="Wager_Buy.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+							<ExecutionModel name="Wager_Try">
+								<Data name="Wager_Try.ActionVerifier" type="Wager_Try.ActionVerifier"/>
+								<Data name="Wager_Try.ODEInputVerifier.Wager" type="Wager_Try.ODEInputVerifier.Wager"/>
+								<Data name="Wager_Try.ODEInputVerifier.JSON" type="Wager_Try.ODEInputVerifier.JSON"/>
+								<Data name="Wager_Try.RandomRequest.DivisionSelection" type="Wager_Try.RandomRequest.DivisionSelection"/>
+								<Data name="Wager_Try.RandomRequest.ScenarioPerDivision" type="Wager_Try.RandomRequest.ScenarioPerDivision"/>
+								<Data name="Wager_Try.RandomResponse.DivisionSelection" type="Wager_Try.RandomResponse.DivisionSelection"/>
+								<Data name="Wager_Try.RandomResponse.ScenarioPerDivision" type="Wager_Try.RandomResponse.ScenarioPerDivision"/>
+								<Data name="Wager_Try.OutcomeDeepCopyProcessor.ODEOutcome" type="Wager_Try.OutcomeDeepCopyProcessor.ODEOutcome"/>
+								<Data name="Wager_Try.PopulationTriggerProcessor" type="Wager_Try.PopulationTriggerProcessor"/>
+								<Data name="Wager_Try.BulkGameDataStoreProcessor" type="Wager_Try.BulkGameDataStoreProcessor"/>
+								<Data name="Wager_Try.ODEPrizeProcessor" type="Wager_Try.ODEPrizeProcessor"/>
+								<Data name="Wager_Try.StaticTriggerProcessor" type="Wager_Try.StaticTriggerProcessor"/>
+								<Data name="Wager_Try.StageProcessor" type="Wager_Try.StageProcessor"/>
+								<Data name="Wager_Try.AdvancedTransactionProcessor" type="Wager_Try.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+							<ExecutionModel name="Scenario">
+								<Data name="Scenario.RandomRequest.DivisionSelection" type="Scenario.RandomRequest.DivisionSelection"/>
+								<Data name="Scenario.RandomRequest.ScenarioPerDivision" type="Scenario.RandomRequest.ScenarioPerDivision"/>
+								<Data name="Scenario.RandomResponse.DivisionSelection" type="Scenario.RandomResponse.DivisionSelection"/>
+								<Data name="Scenario.RandomResponse.ScenarioPerDivision" type="Scenario.RandomResponse.ScenarioPerDivision"/>
+								<Data name="Scenario.OutcomeDeepCopyProcessor.ODEOutcome" type="Scenario.OutcomeDeepCopyProcessor.ODEOutcome"/>
+								<Data name="Scenario.PopulationTriggerProcessor" type="Scenario.PopulationTriggerProcessor"/>
+								<Data name="Scenario.BulkGameDataStoreProcessor" type="Scenario.BulkGameDataStoreProcessor"/>
+								<Data name="Scenario.ODEPrizeProcessor" type="Scenario.ODEPrizeProcessor"/>
+								<Data name="Scenario.AdvancedTransactionProcessor" type="Scenario.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+							<ExecutionModel name="Reveal">
+								<Data name="Reveal.ODEInputVerifier" type="Reveal.ODEInputVerifier"/>
+								<Data name="Reveal.ODEInputVerifier.RevealData" type="Reveal.ODEInputVerifier.RevealData"/>
+								<Data name="Reveal.StageProcessor" type="Reveal.StageProcessor"/>
+								<Data name="Reveal.AdvancedTransactionProcessor" type="Reveal.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+						</ExecutionModelMapping>
+					</Variation>
+				</PaytableVariation>
+			</PaytableData>
+			<PaytableData crc="">
+				<ComponentsDataMapping xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<ComponentData name="Wager_Buy.ActionVerifier">
+						<Data name="TryBuyActions" type="ActionInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.ODEInputVerifier.Wager">
+						<Data name="Wager_Buy.Wager" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.ODEInputVerifier.JSON">
+						<Data name="Wager_Buy.JSON" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.StaticTriggerProcessor">
+						<Data name="Wager_Buy.StaticTriggers" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.LoopProcessor">
+						<Data name="Wager_Buy.Loop" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.StageProcessor">
+						<Data name="Wager_Buy" type="StageTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.AdvancedTransactionProcessor">
+						<Data name="Wager_Buy" type="WagerStrategyInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.ActionVerifier">
+						<Data name="TryBuyActions" type="ActionInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.ODEInputVerifier.Wager">
+						<Data name="Wager_Try.Wager" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.ODEInputVerifier.JSON">
+						<Data name="Wager_Try.JSON" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.RandomRequest.DivisionSelection">
+						<Data name="DivisionSelection" type="PopulationInfo"/>
+						<Data name="DivisionSelection" type="PopulationStripMapping"/>
+						<Data name="PricePointStripMappings" type="KeyValuePairInfo"/>
+						<Data name="DivisionSelection50" type="StripInfo"/>
+						<Data name="DivisionSelection100" type="StripInfo"/>
+						<Data name="DivisionSelection200" type="StripInfo"/>
+						<Data name="DivisionSelection300" type="StripInfo"/>
+						<Data name="DivisionSelection500" type="StripInfo"/>
+						<Data name="DivisionSelection1000" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.RandomRequest.ScenarioPerDivision">
+						<Data name="ScenarioPerDivision" type="PopulationInfo"/>
+						<Data name="ScenarioPerDivision" type="PopulationStripMapping"/>
+						<Data name="ScenarioPerDivision" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.RandomResponse.DivisionSelection">
+						<Data name="DivisionSelection" type="PopulationInfo"/>
+						<Data name="DivisionSelection" type="PopulationStripMapping"/>
+						<Data name="PricePointStripMappings" type="KeyValuePairInfo"/>
+						<Data name="DivisionSelection50" type="StripInfo"/>
+						<Data name="DivisionSelection100" type="StripInfo"/>
+						<Data name="DivisionSelection200" type="StripInfo"/>
+						<Data name="DivisionSelection300" type="StripInfo"/>
+						<Data name="DivisionSelection500" type="StripInfo"/>
+						<Data name="DivisionSelection1000" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.RandomResponse.ScenarioPerDivision">
+						<Data name="ScenarioPerDivision" type="PopulationInfo"/>
+						<Data name="ScenarioPerDivision" type="PopulationStripMapping"/>
+						<Data name="ScenarioPerDivision" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.OutcomeDeepCopyProcessor.ODEOutcome">
+						<Data name="Wager_Try" type="DeepCopyInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.PopulationTriggerProcessor">
+						<Data name="DivisionSelection" type="PopulationTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.BulkGameDataStoreProcessor">
+						<Data name="BulkGameDataStoreInfo" type="BulkGameDataStoreInfo"/>
+						<Data name="DivisionToScenarioMappings" type="KeyValuePairInfo"/>
+						<Data name="PrizeStructure" type="InstantWinPrizeInfo"/>
+						<Data name="Variation" type="PaytableVariation"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.ODEPrizeProcessor">
+						<Data name="ODE" type="PrizeInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.StaticTriggerProcessor">
+						<Data name="Wager_Try.StaticTriggers" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.StageProcessor">
+						<Data name="Wager_Try" type="StageTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.AdvancedTransactionProcessor">
+						<Data name="Wager_Try" type="WagerStrategyInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.RandomRequest.DivisionSelection">
+						<Data name="DivisionSelection" type="PopulationInfo"/>
+						<Data name="DivisionSelection" type="PopulationStripMapping"/>
+						<Data name="PricePointStripMappings" type="KeyValuePairInfo"/>
+						<Data name="DivisionSelection50" type="StripInfo"/>
+						<Data name="DivisionSelection100" type="StripInfo"/>
+						<Data name="DivisionSelection200" type="StripInfo"/>
+						<Data name="DivisionSelection300" type="StripInfo"/>
+						<Data name="DivisionSelection500" type="StripInfo"/>
+						<Data name="DivisionSelection1000" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.RandomRequest.ScenarioPerDivision">
+						<Data name="ScenarioPerDivision" type="PopulationInfo"/>
+						<Data name="ScenarioPerDivision" type="PopulationStripMapping"/>
+						<Data name="ScenarioPerDivision" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.RandomResponse.DivisionSelection">
+						<Data name="DivisionSelection" type="PopulationInfo"/>
+						<Data name="DivisionSelection" type="PopulationStripMapping"/>
+						<Data name="PricePointStripMappings" type="KeyValuePairInfo"/>
+						<Data name="DivisionSelection50" type="StripInfo"/>
+						<Data name="DivisionSelection100" type="StripInfo"/>
+						<Data name="DivisionSelection200" type="StripInfo"/>
+						<Data name="DivisionSelection300" type="StripInfo"/>
+						<Data name="DivisionSelection500" type="StripInfo"/>
+						<Data name="DivisionSelection1000" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.RandomResponse.ScenarioPerDivision">
+						<Data name="ScenarioPerDivision" type="PopulationInfo"/>
+						<Data name="ScenarioPerDivision" type="PopulationStripMapping"/>
+						<Data name="ScenarioPerDivision" type="StripInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.OutcomeDeepCopyProcessor.ODEOutcome">
+						<Data name="Scenario" type="DeepCopyInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.PopulationTriggerProcessor">
+						<Data name="DivisionSelection" type="PopulationTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.BulkGameDataStoreProcessor">
+						<Data name="BulkGameDataStoreInfo" type="BulkGameDataStoreInfo"/>
+						<Data name="DivisionToScenarioMappings" type="KeyValuePairInfo"/>
+						<Data name="PrizeStructure" type="InstantWinPrizeInfo"/>
+						<Data name="Variation" type="PaytableVariation"/>
+					</ComponentData>
+					<ComponentData name="Scenario.ODEPrizeProcessor">
+						<Data name="ODE" type="PrizeInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.AdvancedTransactionProcessor">
+						<Data name="Scenario" type="WagerStrategyInfo"/>
+					</ComponentData>
+					<ComponentData name="Reveal.ODEInputVerifier">
+						<Data name="Reveal.Status" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Reveal.ODEInputVerifier.RevealData">
+						<Data name="Reveal.RevealData" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Reveal.StageProcessor">
+						<Data name="Reveal" type="StageTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Reveal.AdvancedTransactionProcessor">
+						<Data name="Reveal" type="WagerStrategyInfo"/>
+					</ComponentData>
+				</ComponentsDataMapping>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Wager_Buy.Wager" verificationStrategy="wager" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Wagers>
+						<Wager name="Wager1"/>
+					</Wagers>
+				</ODEInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Wager_Buy.JSON" verificationStrategy="json" xmlns="http://www.igt.com/gle/common/xml/gamedata"/>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Wager_Buy.StaticTriggers" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Wager_Buy.Loop" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StageTriggerInfo name="Wager_Buy" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager" stageConnector="WagerToScenario"/>
+				</StageTriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="Wager_Buy" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager" payoutState="noPayout" priority="0" wagerState="pending"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ActionInfo name="TryBuyActions" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Action name="TRY"/>
+					<Action name="BUY"/>
+					<Strategy>action</Strategy>
+				</ActionInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Wager_Try.Wager" verificationStrategy="wager" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Wagers>
+						<Wager name="Wager1"/>
+					</Wagers>
+				</ODEInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Wager_Try.JSON" verificationStrategy="json" xmlns="http://www.igt.com/gle/common/xml/gamedata"/>
+			</PaytableData>
+			<PaytableData crc="">
+				<DeepCopyInfo name="Wager_Try" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<DeepCopy destinationName="ODEResponse" sourceName="ODEResponse.Encrypted" type="JSONOutcome"/>
+				</DeepCopyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Wager_Try.StaticTriggers" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StageTriggerInfo name="Wager_Try" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager" stageConnector="WagerToWager"/>
+				</StageTriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="Wager_Try" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager" payoutState="payout" priority="0" wagerState="settled"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PopulationInfo name="DivisionSelection" populateStrategy="triggerReelsetSwitch" randomRequestStrategy="triggerReelsetSwitch" uniqueRandoms="false" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Entry name="Division" stripOffset="0">
+						<Cell column="0" layer="0" name="Division" row="0"/>
+					</Entry>
+				</PopulationInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PopulationStripMapping name="DivisionSelection" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Map entry="Division" strip="Division"/>
+				</PopulationStripMapping>
+			</PaytableData>
+			<PaytableData crc="">
+				<KeyValuePairInfo name="PricePointStripMappings" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Mapping key="50" value="DivisionSelection50"/>
+					<Mapping key="100" value="DivisionSelection100"/>
+					<Mapping key="200" value="DivisionSelection200"/>
+					<Mapping key="300" value="DivisionSelection300"/>
+					<Mapping key="500" value="DivisionSelection500"/>
+					<Mapping key="1000" value="DivisionSelection1000"/>
+				</KeyValuePairInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection50" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="70"/>
+						<Stop symbolID="3" weight="708"/>
+						<Stop symbolID="4" weight="2879"/>
+						<Stop symbolID="5" weight="9735"/>
+						<Stop symbolID="6" weight="128873"/>
+						<Stop symbolID="7" weight="257734"/>
+						<Stop symbolID="8" weight="600000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection100" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="149"/>
+						<Stop symbolID="3" weight="1601"/>
+						<Stop symbolID="4" weight="6659"/>
+						<Stop symbolID="5" weight="22671"/>
+						<Stop symbolID="6" weight="260001"/>
+						<Stop symbolID="7" weight="508918"/>
+						<Stop symbolID="8" weight="1200000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection200" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="148"/>
+						<Stop symbolID="3" weight="1497"/>
+						<Stop symbolID="4" weight="5560"/>
+						<Stop symbolID="5" weight="18819"/>
+						<Stop symbolID="6" weight="263335"/>
+						<Stop symbolID="7" weight="510640"/>
+						<Stop symbolID="8" weight="1200000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection300" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="221"/>
+						<Stop symbolID="3" weight="2234"/>
+						<Stop symbolID="4" weight="8295"/>
+						<Stop symbolID="5" weight="28076"/>
+						<Stop symbolID="6" weight="394817"/>
+						<Stop symbolID="7" weight="766356"/>
+						<Stop symbolID="8" weight="1800000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection500" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="279"/>
+						<Stop symbolID="3" weight="2979"/>
+						<Stop symbolID="4" weight="10975"/>
+						<Stop symbolID="5" weight="36571"/>
+						<Stop symbolID="6" weight="548945"/>
+						<Stop symbolID="7" weight="1000250"/>
+						<Stop symbolID="8" weight="2400000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="DivisionSelection1000" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="Division">
+						<Stop symbolID="1" weight="1"/>
+						<Stop symbolID="2" weight="243"/>
+						<Stop symbolID="3" weight="3821"/>
+						<Stop symbolID="4" weight="13566"/>
+						<Stop symbolID="5" weight="45189"/>
+						<Stop symbolID="6" weight="682350"/>
+						<Stop symbolID="7" weight="1254830"/>
+						<Stop symbolID="8" weight="3000000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PopulationInfo name="ScenarioPerDivision" populateStrategy="randomLong" randomRequestStrategy="stripLength" uniqueRandoms="false" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Entry name="D1" stripOffset="0">
+						<Cell column="0" layer="0" name="D1" row="0"/>
+					</Entry>
+					<Entry name="D2" stripOffset="0">
+						<Cell column="1" layer="0" name="D2" row="0"/>
+					</Entry>
+					<Entry name="D3" stripOffset="0">
+						<Cell column="2" layer="0" name="D3" row="0"/>
+					</Entry>
+					<Entry name="D4" stripOffset="0">
+						<Cell column="3" layer="0" name="D4" row="0"/>
+					</Entry>
+					<Entry name="D5" stripOffset="0">
+						<Cell column="4" layer="0" name="D5" row="0"/>
+					</Entry>
+					<Entry name="D6" stripOffset="0">
+						<Cell column="5" layer="0" name="D6" row="0"/>
+					</Entry>
+					<Entry name="D7" stripOffset="0">
+						<Cell column="6" layer="0" name="D7" row="0"/>
+					</Entry>
+					<Entry name="D8" stripOffset="0">
+						<Cell column="7" layer="0" name="D8" row="0"/>
+					</Entry>
+				</PopulationInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PopulationStripMapping name="ScenarioPerDivision" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Map entry="D1" strip="D1"/>
+					<Map entry="D2" strip="D2"/>
+					<Map entry="D3" strip="D3"/>
+					<Map entry="D4" strip="D4"/>
+					<Map entry="D5" strip="D5"/>
+					<Map entry="D6" strip="D6"/>
+					<Map entry="D7" strip="D7"/>
+					<Map entry="D8" strip="D8"/>
+				</PopulationStripMapping>
+			</PaytableData>
+			<PaytableData crc="">
+				<StripInfo name="ScenarioPerDivision" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Strip name="D1">
+						<Stop symbolID="scenariosInDivision" weight="200"/>
+					</Strip>
+					<Strip name="D2">
+						<Stop symbolID="scenariosInDivision" weight="200"/>
+					</Strip>
+					<Strip name="D3">
+						<Stop symbolID="scenariosInDivision" weight="200"/>
+					</Strip>
+					<Strip name="D4">
+						<Stop symbolID="scenariosInDivision" weight="200"/>
+					</Strip>
+					<Strip name="D5">
+						<Stop symbolID="scenariosInDivision" weight="200"/>
+					</Strip>
+					<Strip name="D6">
+						<Stop symbolID="scenariosInDivision" weight="200"/>
+					</Strip>
+					<Strip name="D7">
+						<Stop symbolID="scenariosInDivision" weight="200"/>
+					</Strip>
+					<Strip name="D8">
+						<Stop symbolID="scenariosInDivision" weight="1000"/>
+					</Strip>
+				</StripInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<DeepCopyInfo name="Scenario" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<DeepCopy destinationName="ODEResponse" sourceName="ODEResponse.Encrypted" type="JSONOutcome"/>
+				</DeepCopyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PopulationTriggerInfo name="DivisionSelection" strategy="default" xmlns="http://www.igt.com/gle/common/xml/gamedata"/>
+			</PaytableData>
+			<PaytableData crc="">
+				<BulkGameDataStoreInfo name="BulkGameDataStoreInfo" strategy="simulateOdeResponse" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<TableName>GDS_COM_IW_SCENARIO</TableName>
+					<EnableLocalization defaultLanguage="en">false</EnableLocalization>
+					<MathVersion>300-2101-V1</MathVersion>
+				</BulkGameDataStoreInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<KeyValuePairInfo name="DivisionToScenarioMappings" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Mapping key="1" value="D1"/>
+					<Mapping key="2" value="D2"/>
+					<Mapping key="3" value="D3"/>
+					<Mapping key="4" value="D4"/>
+					<Mapping key="5" value="D5"/>
+					<Mapping key="6" value="D6"/>
+					<Mapping key="7" value="D7"/>
+					<Mapping key="8" value="D8"/>
+				</KeyValuePairInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<InstantWinPrizeInfo name="PrizeStructure" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<PricePoint amount="50">
+						<Prize description="1" division="1">500000</Prize>
+						<Prize description="2" division="2">50000</Prize>
+						<Prize description="3" division="3">5000</Prize>
+						<Prize description="4" division="4">1500</Prize>
+						<Prize description="5" division="5">500</Prize>
+						<Prize description="6" division="6">100</Prize>
+						<Prize description="7" division="7">50</Prize>
+						<Prize description="8" division="8">0</Prize>
+					</PricePoint>
+					<PricePoint amount="100">
+						<Prize description="1" division="1">1000000</Prize>
+						<Prize description="2" division="2">50000</Prize>
+						<Prize description="3" division="3">10000</Prize>
+						<Prize description="4" division="4">3000</Prize>
+						<Prize description="5" division="5">1000</Prize>
+						<Prize description="6" division="6">200</Prize>
+						<Prize description="7" division="7">100</Prize>
+						<Prize description="8" division="8">0</Prize>
+					</PricePoint>
+					<PricePoint amount="200">
+						<Prize description="1" division="1">2000000</Prize>
+						<Prize description="2" division="2">200000</Prize>
+						<Prize description="3" division="3">20000</Prize>
+						<Prize description="4" division="4">6000</Prize>
+						<Prize description="5" division="5">2000</Prize>
+						<Prize description="6" division="6">400</Prize>
+						<Prize description="7" division="7">200</Prize>
+						<Prize description="8" division="8">0</Prize>
+					</PricePoint>
+					<PricePoint amount="300">
+						<Prize description="1" division="1">6000000</Prize>
+						<Prize description="2" division="2">300000</Prize>
+						<Prize description="3" division="3">30000</Prize>
+						<Prize description="4" division="4">9000</Prize>
+						<Prize description="5" division="5">3000</Prize>
+						<Prize description="6" division="6">600</Prize>
+						<Prize description="7" division="7">300</Prize>
+						<Prize description="8" division="8">0</Prize>
+					</PricePoint>
+					<PricePoint amount="500">
+						<Prize description="1" division="1">15000000</Prize>
+						<Prize description="2" division="2">500000</Prize>
+						<Prize description="3" division="3">50000</Prize>
+						<Prize description="4" division="4">15000</Prize>
+						<Prize description="5" division="5">5000</Prize>
+						<Prize description="6" division="6">1000</Prize>
+						<Prize description="7" division="7">500</Prize>
+						<Prize description="8" division="8">0</Prize>
+					</PricePoint>
+					<PricePoint amount="1000">
+						<Prize description="1" division="1">25000000</Prize>
+						<Prize description="2" division="2">1500000</Prize>
+						<Prize description="3" division="3">100000</Prize>
+						<Prize description="4" division="4">30000</Prize>
+						<Prize description="5" division="5">10000</Prize>
+						<Prize description="6" division="6">2000</Prize>
+						<Prize description="7" division="7">1000</Prize>
+						<Prize description="8" division="8">0</Prize>
+					</PricePoint>
+				</InstantWinPrizeInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<InstantWinPrizeInfo name="PrizeTable" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<PricePoint amount="50">
+						<Prize description="Blackout" division="1">500000</Prize>
+						<Prize description="Dollar" division="2">50000</Prize>
+						<Prize description="Sterling" division="3">5000</Prize>
+						<Prize description="Euro" division="4">1500</Prize>
+						<Prize description="Yuan" division="5">500</Prize>
+						<Prize description="Diamond" division="6">100</Prize>
+						<Prize description="Four Corners" division="7">50</Prize>
+					</PricePoint>
+					<PricePoint amount="100">
+						<Prize description="Blackout" division="1">1000000</Prize>
+						<Prize description="Dollar" division="2">50000</Prize>
+						<Prize description="Sterling" division="3">10000</Prize>
+						<Prize description="Euro" division="4">3000</Prize>
+						<Prize description="Yuan" division="5">1000</Prize>
+						<Prize description="Diamond" division="6">200</Prize>
+						<Prize description="Four Corners" division="7">100</Prize>
+					</PricePoint>
+					<PricePoint amount="200">
+						<Prize description="Blackout" division="1">2000000</Prize>
+						<Prize description="Dollar" division="2">200000</Prize>
+						<Prize description="Sterling" division="3">20000</Prize>
+						<Prize description="Euro" division="4">6000</Prize>
+						<Prize description="Yuan" division="5">2000</Prize>
+						<Prize description="Diamond" division="6">400</Prize>
+						<Prize description="Four Corners" division="7">200</Prize>
+					</PricePoint>
+					<PricePoint amount="300">
+						<Prize description="Blackout" division="1">6000000</Prize>
+						<Prize description="Dollar" division="2">300000</Prize>
+						<Prize description="Sterling" division="3">30000</Prize>
+						<Prize description="Euro" division="4">9000</Prize>
+						<Prize description="Yuan" division="5">3000</Prize>
+						<Prize description="Diamond" division="6">600</Prize>
+						<Prize description="Four Corners" division="7">300</Prize>
+					</PricePoint>
+					<PricePoint amount="500">
+						<Prize description="Blackout" division="1">15000000</Prize>
+						<Prize description="Dollar" division="2">500000</Prize>
+						<Prize description="Sterling" division="3">50000</Prize>
+						<Prize description="Euro" division="4">15000</Prize>
+						<Prize description="Yuan" division="5">5000</Prize>
+						<Prize description="Diamond" division="6">1000</Prize>
+						<Prize description="Four Corners" division="7">500</Prize>
+					</PricePoint>
+					<PricePoint amount="1000">
+						<Prize description="Blackout" division="1">25000000</Prize>
+						<Prize description="Dollar" division="2">1500000</Prize>
+						<Prize description="Sterling" division="3">100000</Prize>
+						<Prize description="Euro" division="4">30000</Prize>
+						<Prize description="Yuan" division="5">10000</Prize>
+						<Prize description="Diamond" division="6">2000</Prize>
+						<Prize description="Four Corners" division="7">1000</Prize>
+					</PricePoint>
+				</InstantWinPrizeInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PrizeInfo multiplierStrategy="null" name="ODE" strategy="ode" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Prize name="Total">
+						<PrizePay count="1" value="0"/>
+					</Prize>
+				</PrizeInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="Scenario" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="scenario" payoutState="noPayout" priority="0" wagerState="pending"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Reveal.Status" verificationStrategy="revealStatus" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<RevealIncompleteTrigger>incomplete</RevealIncompleteTrigger>
+					<RevealCompleteTrigger>complete</RevealCompleteTrigger>
+				</ODEInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Reveal.RevealData" verificationStrategy="revealData" xmlns="http://www.igt.com/gle/common/xml/gamedata"/>
+			</PaytableData>
+			<PaytableData crc="">
+				<StageTriggerInfo name="Reveal" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="incomplete" stageConnector="RevealToReveal"/>
+					<Trigger name="complete" stageConnector="RevealToWager"/>
+				</StageTriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="Reveal" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="incomplete" payoutState="noPayout" priority="50" wagerState="pending"/>
+					<Trigger name="complete" payoutState="payout" priority="0" wagerState="settled"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+		</Paytable>
+	</DigestedData>
+</SignedPaytable>

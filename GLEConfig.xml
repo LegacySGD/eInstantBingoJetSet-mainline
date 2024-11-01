@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GAMES>
+    <family code="2101" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Bingo International WLA" version="1.0.25" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="Y"
+              numberGenerator="RNG"
+              betMultipliers="50,100,200,300,500,1000,1500,2000"
+              spots=""
+              productId="1"
+              gamegroup="Bingo"
+              languages="en,en_US,nb_NO,nl_BE,fr_BE,de_BE,en_NZ,pt_BR"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="N"
+              stateful="N"> 
+            <!-- NT -->
+            <paymodel modelid="300-2101-001"  revealId="2101" revealVersionId="2101"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bingo International : 300-2101-001"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+            <paymodelConfig modelid="300-2101-001"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2101-001"   clienttype="HTML" configcode="PHLP"/>
+    
+            <!-- LNB -->
+            <paymodel modelid="300-2101-002"  revealId="2101" revealVersionId="2101"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bingo International : 300-2101-002"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+            <paymodelConfig modelid="300-2101-002"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2101-002"   clienttype="HTML" configcode="PHLP"/>
+    
+            <!-- LNZ -->
+            <paymodel modelid="300-2101-003"  revealId="2101" revealVersionId="2101"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bingo International : 300-2101-003"
+                      hibethold="31.50" lobethold="31.50"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+            <paymodelConfig modelid="300-2101-003"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2101-003"   clienttype="HTML" configcode="PHLP"/>
+    
+            <!-- RGS COM -->
+            <paymodel modelid="300-2101-004"  revealId="2101" revealVersionId="2101"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bingo International : 300-2101-004"
+                      hibethold="31.50" lobethold="31.50"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+            <paymodelConfig modelid="300-2101-004"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2101-004"   clienttype="HTML" configcode="PHLP"/>
+    
+            <!-- BRZ $0.50, $1, $2, $5, $10 & $20 -->
+            <paymodel modelid="300-2101-005"  revealId="2101" revealVersionId="2101"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bingo International : 300-2101-005"
+                      hibethold="31.50" lobethold="31.50"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+            <paymodelConfig modelid="300-2101-005"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2101-005"   clienttype="HTML" configcode="PHLP"/>
+    
+            <!-- GA -->
+            <paymodel modelid="300-2101-006"  revealId="2101" revealVersionId="2101"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bingo International : 300-2101-006"
+                      hibethold="31.50" lobethold="31.50"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="100"/>
+            <paymodelConfig modelid="300-2101-006"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2101-006"   clienttype="HTML" configcode="PHLP"/>
+    
+    		<denom currencycode="BRL" amount="0.01,0.03"/>
+            <denom currencycode="EUR" amount="0.01"/>
+            <denom currencycode="NOK" amount="0.01"/>
+            <denom currencycode="NZD" amount="0.01,0.02"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game> 
+        <game name="Bingo Jet Set COM" version="1.0.25" gameengineversion="2" gamelogicversion="1.0"
+              number="1"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="Y"
+              numberGenerator="RNG"
+              betMultipliers="50,100,200,300,500,1000"
+              spots=""
+              productId="1"
+              gamegroup="Bingo"
+              languages="de,en,fr_CA,it,sv"
+              skbPlatformVersion="1.4.0">
+            <paymodel modelid="300-2101-101"  revealId="2101" revealVersionId="2101"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bingo Jet Set : 300-2101-101"
+                      hibethold="7.00" lobethold="7.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="1000"/>
+            <paymodelConfig modelid="300-2101-101"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2101-101"   clienttype="HTML" configcode="PHLP"/>
+            <paymodel modelid="300-2101-102"  revealId="2101" revealVersionId="2101"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bingo Jet Set : 300-2101-102"
+                      hibethold="11.00" lobethold="11.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="1000"/>
+            <paymodelConfig modelid="300-2101-102"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2101-102"   clienttype="HTML" configcode="PHLP"/>
+            <paymodel modelid="300-2101-103"  revealId="2101" revealVersionId="2101"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bingo Jet Set : 300-2101-103"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="1000"/>
+            <paymodelConfig modelid="300-2101-103"   clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2101-103"   clienttype="HTML" configcode="PHLP"/>
+    
+            <denom currencycode="CAD" amount="0.01,0.02"/>
+            <denom currencycode="EUR" amount="0.01"/>
+            <denom currencycode="FPY" amount="0.01,1.00"/>
+            <denom currencycode="FUN" amount="1.00,10.00"/>
+            <denom currencycode="GBP" amount="0.01"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>
+</GAMES>

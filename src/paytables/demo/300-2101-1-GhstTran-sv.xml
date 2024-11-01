@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation language="sv">
+<phrase key="softwareId" value="Programvaru-ID"/>
+<phrase key="transactionId" value="Transaktions-ID"/>
+<phrase key="totalWins" value="Totala vinster"/>
+<phrase key="totalWager" value="Total insats"/>
+<phrase key="bingoCardNumbers" value="Bricknummer "/>
+<phrase key="drawnNumbers" value="Dragna nummer"/>
+<phrase key="prizePatterns" value="Vinstmönster"/>
+<phrase key="matched" value="Matchade"/>
+<phrase key="freeSpace" value="GRATIS"/>
+<phrase key="Blackout" value="Blackout"/>
+<phrase key="Dollar" value="Dollar"/>
+<phrase key="Sterling" value="Pund"/>
+<phrase key="Euro" value="Euro"/>
+<phrase key="Yuan" value="Yuan"/>
+<phrase key="Diamond" value="Diamant"/>
+<phrase key="Four Corners" value="Fyra hörn"/>
+<phrase key="winningPattern" value="Vinnande mönster"/>
+</translation>

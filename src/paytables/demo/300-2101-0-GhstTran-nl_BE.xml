@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation language="nl_BE">
+<phrase key="softwareId" value="Software-ID"/>
+<phrase key="transactionId" value="Transactie-ID"/>
+<phrase key="totalWins" value="Totale winst"/>
+<phrase key="totalWager" value="Totale inzet"/>
+<phrase key="bingoCardNumbers" value="Bingokaartnummers"/>
+<phrase key="drawnNumbers" value="Winnende nummers"/>
+<phrase key="prizePatterns" value="Prijspatronen"/>
+<phrase key="matched" value="U hebt een combinatie gevonden van"/>
+<phrase key="freeSpace" value="GRATIS"/>
+<phrase key="Blackout" value="Blackout"/>
+<phrase key="Dollar" value="Dollar"/>
+<phrase key="Sterling" value="Sterling"/>
+<phrase key="Euro" value="Euro"/>
+<phrase key="Yuan" value="Yuan"/>
+<phrase key="Diamond" value="Diamant"/>
+<phrase key="Four Corners" value="Hoeken"/>
+<phrase key="winningPattern" value="Winnend patroon"/>
+</translation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation language="nb_NO">
+<phrase key="softwareId" value="Programvare-ID"/>
+<phrase key="transactionId" value="Transaksjons-ID"/>
+<phrase key="totalWins" value="Samlet gevinst"/>
+<phrase key="totalWager" value="Samlet innsats"/>
+<phrase key="bingoCardNumbers" value="Bingobrett-tall"/>
+<phrase key="drawnNumbers" value="Trekte tall"/>
+<phrase key="prizePatterns" value="Premiemønster"/>
+<phrase key="matched" value="Matchet"/>
+<phrase key="freeSpace" value="GRATIS"/>
+<phrase key="Blackout" value="Blackout"/>
+<phrase key="Dollar" value="Dollar"/>
+<phrase key="Sterling" value="Pund"/>
+<phrase key="Euro" value="Euro"/>
+<phrase key="Yuan" value="Yuan"/>
+<phrase key="Diamond" value="Diamant"/>
+<phrase key="Four Corners" value="Fire hjørner"/>
+<phrase key="winningPattern" value="Vinnermønster"/>
+</translation>
